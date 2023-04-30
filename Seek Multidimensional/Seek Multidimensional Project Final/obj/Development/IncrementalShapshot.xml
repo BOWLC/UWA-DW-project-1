@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Seek Multidimensional Project Final</Database>
+    <Server>DESKTOP-EV9UNHH\CSSE_DWL_LC</Server>
+    <ConnectionString>Data Source=DESKTOP-EV9UNHH\CSSE_DWL_LC;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>xYw6WBWkEzSHq4ZO3Ohys/BPH2U=1/05/2022 3:46:38 PM1/05/2022 3:38:54 PM</TimeStamp>
+        <ID>
+          <String>Seek AU</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>H3JfPE82VomyMWVtlZY3AYfWquo=1/05/2022 3:47:17 PM1/05/2022 3:47:16 PM</TimeStamp>
+        <ID>
+          <String>Seek AU</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eeCT6LJwynCCfVRNkEj2Kz9ZLpM=1/05/2022 4:05:31 PM1/05/2022 3:48:06 PM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pw33bdjKf85NhYRpQ5/H5DWKOK8=1/05/2022 6:36:19 PM1/05/2022 3:48:06 PM</TimeStamp>
+        <ID>
+          <String>Company</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Zjm1GXWETRLYTILzTif90VlBhts=1/05/2022 4:05:31 PM1/05/2022 3:48:06 PM</TimeStamp>
+        <ID>
+          <String>Job</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+KomLjKJzYwIfkejtbw9EJeir+g=1/05/2022 4:05:31 PM1/05/2022 3:48:06 PM</TimeStamp>
+        <ID>
+          <String>Post</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>lVaYWsVe0/K8pXz6k3UrETgnNHY=1/05/2022 4:05:31 PM1/05/2022 3:48:06 PMqA8F25lHRrk7H+fo4PTS9ZPazfI=1/05/2022 3:48:06 PM1/05/2022 3:48:06 PM</TimeStamp>
+        <ID>
+          <String>Seek AU</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>AE7iRkwxM+ipuRvSyd/SjuTDs5Y=1/05/2022 3:30:03 PM1/05/2022 3:30:03 PM</TimeStamp>
+      <ID>
+        <String>Seek Multidimensional Project Final</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-01T10:37:24.583333Z</LastDeployed>
+</DeploymentSnapshot>

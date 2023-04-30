@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Project1 Data Clean", "Project1 Data Clean.dtproj", "{A8EF8D73-E933-41FD-B3C0-1C5F90EDD868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EF8D73-E933-41FD-B3C0-1C5F90EDD868}.Development|Default.ActiveCfg = Development
+		{A8EF8D73-E933-41FD-B3C0-1C5F90EDD868}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02D91BEC-22FF-4045-9756-50F472DAE6C2}
+	EndGlobalSection
+EndGlobal
